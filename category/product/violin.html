@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>violin - Dummy Shopping Website</title>
+    <link rel="stylesheet" href="..\..\styles.css">
+    <script src="..\..\scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dummy Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="..\..\index.html">Home</a> > </li>
+                <li><a href="..\Musical Instruments.html">Musical Instruments</a> > </li>
+                <li><a href="violin.html">violin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="product-details">
+            <h2>violin</h2>
+            <img src="picFile\violin.svg" alt="violin">
+            <p>The violin is a string instrument whose four strings are played by a bow. It has beautiful timbre and a wide range of sounds and is often used in classical and various music performances.</p>
+            <p>$599.00</p>
+            <button onclick="addToCart('violin', 599)">Add to Cart</button>
+        </section>
+        <aside class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list-items">
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button>Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dummy Shopping Website</p>
+    </footer>
+</body>
+</html>

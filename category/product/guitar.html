@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guitar - Dummy Shopping Website</title>
+    <link rel="stylesheet" href="..\..\styles.css">
+    <script src="..\..\scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dummy Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="..\..\index.html">Home</a> > </li>
+                <li><a href="..\Musical Instruments.html">Musical Instruments</a> > </li>
+                <li><a href="guitar.html">guitar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="product-details">
+            <h2>guitar</h2>
+            <img src="picFile\guitar.svg" alt="guitar">
+            <p>The guitar is a plucked string instrument, usually with six strings. Its structure includes a head, neck, body, etc. It has rich timbre and can be used for solo or accompaniment.</p>
+            <p>$299.00</p>
+            <button onclick="addToCart('guitar', 299)">Add to Cart</button>
+        </section>
+        <aside class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list-items">
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button>Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dummy Shopping Website</p>
+    </footer>
+</body>
+</html>

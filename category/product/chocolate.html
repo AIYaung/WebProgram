@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocolate - Dummy Shopping Website</title>
+    <link rel="stylesheet" href="..\..\styles.css">
+    <script src="..\..\scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dummy Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="..\..\index.html">Home</a> > </li>
+                <li><a href="..\Food.html">Food</a> > </li>
+                <li><a href="chocolate.html">chocolate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="product-details">
+            <h2>chocolate</h2>
+            <img src="picFile\chocolate.svg" alt="chocolate">
+            <p>Sweets made with cocoa beans as the main ingredient include dark chocolate, milk chocolate, etc. They have a silky taste, rich aroma, and are rich in ingredients such as theobromine. Eating them in moderation can bring a sense of pleasure.</p>
+            <p>$9.00</p>
+            <button onclick="addToCart('chocolate', 9)">Add to Cart</button>
+        </section>
+        <aside class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list-items">
+                <!-- Items will be dynamically added here -->
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button>Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dummy Shopping Website</p>
+    </footer>
+</body>
+</html>

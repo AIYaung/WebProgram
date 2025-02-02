@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc - Dummy Shopping Website</title>
+    <link rel="stylesheet" href="..\..\styles.css">
+    <script src="..\..\scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dummy Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="..\..\index.html">Home</a> > </li>
+                <li><a href="..\Electronic products.html">Electronic products</a> > </li>
+                <li><a href="pc.html">pc</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="product-details">
+            <h2>pc</h2>
+            <img src="picFile\pc.svg" alt="pc">
+            <p>Laptops have functions such as computing, storage, internet access, office work, and entertainment. They can be used for document editing, video playback, game running, and can also be connected to external devices to expand their functions.</p>
+            <p>$999.00</p>
+            <button onclick="addToCart('pc', 999)">Add to Cart</button>
+        </section>
+        <aside class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list-items">
+                <!-- Items will be dynamically added here -->
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button>Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dummy Shopping Website</p>
+    </footer>
+</body>
+</html>

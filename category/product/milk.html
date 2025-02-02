@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>milk - Dummy Shopping Website</title>
+    <link rel="stylesheet" href="..\..\styles.css">
+    <script src="..\..\scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dummy Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="..\..\index.html">Home</a> > </li>
+                <li><a href="..\Drink.html">Drink</a> > </li>
+                <li><a href="milk.html">milk</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="product-details">
+            <h2>milk</h2>
+            <img src="picFile\milk.svg" alt="milk">
+            <p>Milk is a nutritious drink that is rich in nutrients such as protein, calcium, phosphorus, etc. It is easily absorbed by the human body and can be drunk directly or used to make a variety of delicious foods.</p>
+            <p>$5.00</p>
+            <button onclick="addToCart('milk', 5)">Add to Cart</button>
+        </section>
+        <aside class="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="shopping-list-items">
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button>Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dummy Shopping Website</p>
+    </footer>
+</body>
+</html>
